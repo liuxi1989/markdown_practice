@@ -14,3 +14,8 @@ git checkout -b dev origin/dev		//如果失败，需要先执行git fetch
 <pre>
 git fetch origin dev;dev1
 </pre>
+
+4. 推送本地dev分支到远程库，如果远程库没有该分支，则自动创建
+<pre>
+git push origin dev
+</pre>
